@@ -19,7 +19,11 @@ h1,h2,h3{
 }
 
 /* Navgaçao */
-nav {
+nav {   
+        position: fixed;
+        top: 0;
+        right: 70px;
+        left: 70px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -29,10 +33,11 @@ nav {
 
 nav > a {
             text-decoration: none;
-            color:#ffffff;
+            color:#fa0000;
             font-weight:800;
             font-size: 32px;
             font-family: Yellowtail, serif;
+            
 }
 
 nav ul {
@@ -46,15 +51,14 @@ nav ul {
 }
 nav ul li{
             text-align: center;    
-            /*width: 100%;*/ 
-            /* background-color: red; */
+            width: 50%;  
 }
 nav ul li a {
             display: inline-block;
             padding: 10px 0;
-            /* width: 100%; */
+            width: 50%;
             text-decoration: none;
-            color:#ffffff         
+            color:#ffffff        
 }
 nav ul li a:hover{
     color:#23ac08
@@ -171,13 +175,13 @@ footer a {
     }
     nav ul {
             flex-direction: row;
-            width: 50%;
+            width: 70%;
     }
     
     /*cabeçalho*/
     header {
             height: 600px;
-            height: 60vh;
+            height: 40vh;
             justify-content: center;
 
     }
