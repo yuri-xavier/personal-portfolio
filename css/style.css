@@ -20,10 +20,6 @@ h1,h2,h3{
 
 /* Navgaçao */
 nav {   
-        position: fixed;
-        top: 0;
-        right: 70px;
-        left: 70px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -169,6 +165,10 @@ footer a {
 
     /*nav*/
     nav {
+            position: fixed;
+            top: 0;
+            right: 70px;
+            left: 70px;
             flex-direction: row;
             justify-content: space-around;
 
