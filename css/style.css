@@ -29,6 +29,7 @@ nav {
 
 nav > a {
             text-decoration: none;
+            text-shadow: 3px 3px 3px black;
             color:#fa0000;
             font-weight:800;
             font-size: 32px;
@@ -54,6 +55,7 @@ nav ul li a {
             padding: 10px 0;
             width: 50%;
             text-decoration: none;
+            text-shadow: 3px 3px 3px black;
             color:#ffffff        
 }
 nav ul li a:hover{
@@ -92,17 +94,13 @@ header p{
     color: #ffffff;
 }
 #sobre h2{
+    text-shadow: 3px 3px 3px black;
     color: #ffffff;
 }
 
 #sobre p{
     margin-bottom: 2.5em;
     max-width: 1000px;
-}
-
-sobre .botao {
-    background-color: f1f1f1;
-    color: #1c1c1c;
 }
 
 /*serviços*/
@@ -112,6 +110,10 @@ sobre .botao {
     flex-direction: column;
     align-items: center;
     padding: 30px;
+}
+
+#Serviços h2{
+    text-shadow: 2px 2px 4px black;
 }
 
 #Serviços div{
@@ -130,6 +132,7 @@ sobre .botao {
 }
 
 #fotos h2{
+    text-shadow: 3px 3px 5px black;
     margin-bottom: 20px;
 }
 
@@ -144,7 +147,8 @@ sobre .botao {
     padding-top: 20px;
 }
 #videos h2{
-    margin-bottom: 20px;
+    text-shadow: 3px 3px 5px black;
+    margin-bottom: 0px;
 }
 #videos video{
     width: 100%;
@@ -159,6 +163,7 @@ sobre .botao {
     padding: 20px;
 }
 #contatos h2{
+    text-shadow: 3px 3px 5px black;
     color: #000000;
 }
 
@@ -179,7 +184,7 @@ footer a {
     /*nav*/
     nav {
             position: fixed;
-            top: 0;
+            top: 10px;
             right: 70px;
             left: 70px;
             flex-direction: row;
